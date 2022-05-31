@@ -1,0 +1,25 @@
+@use "var";                      // VARIABLES
+
+
+// --------------------------------------
+//   GENERAL
+// --------------------------------------
+//
+html { box-sizing: border-box; }
+*, *:after, *:before { box-sizing: inherit; }
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font: {
+        family: var.$font-family;
+        size: 18px;
+        weight: var.$font-regular;
+    }
+    line-height: 1.5;
+    color: var.$color-secondary;
+    background-color: #fff;
+}
+
